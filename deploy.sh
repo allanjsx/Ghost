@@ -21,9 +21,8 @@ cp -R content/themes/casper /var/www/ghost/content/themes
 
 # copy zh-CN theme folder
 cp -R content/themes/casper-3fen-zh /var/www/ghost/content/themes
-
 # copy other key files or config files
-cp index.js, *.json /var/www/ghost
+cp index.js *.json /var/www/ghost
 
 # cd back to ghost installation directory
 cd /var/www/ghost
