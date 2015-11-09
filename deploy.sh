@@ -11,7 +11,7 @@ cd /var/www/ghost
 rm -rf core
 
 # change back to git folder
-cd /var/www/ghost_git/ghost
+cd /var/www/ghost_git/Ghost
 
 # copy the new core directory to install folder
 cp -R core /var/www/ghost
