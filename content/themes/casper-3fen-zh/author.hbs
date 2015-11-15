@@ -27,7 +27,7 @@
         <div class="author-meta">
             {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
             {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
-            <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='没有发表文章' singular='% 篇文章' plural='% 篇文章'}}</span>
+            <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='还未发表文章' singular='% 篇文章' plural='% 篇文章'}}</span>
         </div>
     </section>
 {{/author}}
