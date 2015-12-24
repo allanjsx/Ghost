@@ -58,18 +58,22 @@
 
             <section class="share">
                 <h4>分享给朋友</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
+                <a class="fa fa-weibo" href="http://service.weibo.com/share/share.php?url={{url absolute="true"}}&amp;appkey=475505879&amp;title=%23硅谷顶级投资人在想什么%23%20{{encode title}}%20传送门{{url absolute="true"}}&amp;pic=&amp;ralateUid=&amp;language=zh_cn"
+                    onclick="window.open(this.href, 'weibo-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Weibo</span>
+                </a>
+                <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=%23硅谷顶级投资人在想什么%20{{encode title}}%20传送门:&amp;url={{url absolute="true"}}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
+                <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&amp;title={{encode title}}&amp;summary=入目3分精译文章，告诉你硅谷顶级投资人都在想什么&amp;source=3fen.co"
+                    onclick="window.open(this.href, 'linkedin-share','width=580,height=296');return false;">
+                    <span class="hidden">LinkedIn</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
+                <!-- <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
-                </a>
+                </a> -->
             </section>
 
         </footer>
